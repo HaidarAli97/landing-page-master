@@ -115,6 +115,7 @@ h1 {
 .main .devices-img-con {
   display: flex;
   justify-content: center;
+  animation: left-slide 10000ms linear;
 }
 .main .devices-img-con img {
   max-width: 80%;

@@ -15,9 +15,9 @@ p{
     font-size: clamp(1rem, 1.2vw, 2.5rem);
 }
 
- small {
-     color: #ABAFB2;
- }
+small {
+    color: #ABAFB2;
+}
 
 img{
             max-width: 60%;
@@ -95,28 +95,27 @@ h1{
     .desk-top-img-con{
         display: flex;
 
-         .text-con{
+    .text-con{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             padding: 3rem;
             animation: right-slide 10000ms linear;
-         }
+        }
 
-         img{
+        img{
             animation: left-slide 10000ms linear;
-         }
+        }
 
-         @keyframes right-slide {
+        @keyframes right-slide {
             from{transform: translate(100%);}
             to{transform: translate(-2%);}
-         }
+        }
 
-         @keyframes left-slide {
+        @keyframes left-slide {
             from{transform: translate(-100%);}
             to{transform: translate(2%);}
-         }
-     
+        }
     }
 
     .access-con{
@@ -126,6 +125,8 @@ h1{
     .devices-img-con{
         display: flex;
         justify-content: center;
+            animation: left-slide 10000ms linear;
+
 
         img{
             max-width: 80%;
@@ -237,9 +238,8 @@ h1{
         }
 
         .icons{
-       margin-top: 50px;
+        margin-top: 50px;
         }
-        }
-
+    }
 }
     }
